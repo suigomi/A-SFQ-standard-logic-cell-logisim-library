@@ -89,29 +89,29 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(540,350)" to="(550,350)"/>
     <wire from="(590,350)" to="(600,350)"/>
     <wire from="(590,410)" to="(600,410)"/>
-    <comp lib="0" loc="(520,370)" name="Pin">
+    <comp lib="4" loc="(590,410)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(590,350)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(540,320)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(460,300)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(460,500)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(520,430)" name="Pin">
-      <a name="tristate" val="false"/>
+    <comp lib="1" loc="(680,380)" name="AND Gate">
+      <a name="inputs" val="2"/>
     </comp>
     <comp lib="0" loc="(700,380)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(680,380)" name="AND Gate">
-      <a name="inputs" val="2"/>
+    <comp lib="0" loc="(520,430)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
-    <comp lib="4" loc="(590,350)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(590,410)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(540,320)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(460,300)" name="Pin">
+    <comp lib="0" loc="(520,370)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
   </circuit>
@@ -151,30 +151,30 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(540,350)" to="(550,350)"/>
     <wire from="(590,350)" to="(600,350)"/>
     <wire from="(590,410)" to="(600,410)"/>
+    <comp lib="0" loc="(520,370)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
     <comp lib="4" loc="(590,410)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(690,380)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(590,350)" name="D Flip-Flop"/>
     <comp lib="0" loc="(460,300)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="1" loc="(690,380)" name="NAND Gate">
+    <comp lib="0" loc="(460,500)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(520,430)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(540,320)" name="OR Gate">
       <a name="inputs" val="2"/>
     </comp>
     <comp lib="0" loc="(700,380)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(460,500)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="4" loc="(590,350)" name="D Flip-Flop"/>
-    <comp lib="0" loc="(520,430)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(520,370)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(540,320)" name="OR Gate">
-      <a name="inputs" val="2"/>
     </comp>
   </circuit>
   <circuit name="CLK-OR">
@@ -210,29 +210,29 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(540,350)" to="(550,350)"/>
     <wire from="(590,350)" to="(600,350)"/>
     <wire from="(590,410)" to="(600,410)"/>
+    <comp lib="4" loc="(590,350)" name="D Flip-Flop"/>
     <comp lib="0" loc="(520,430)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="1" loc="(680,380)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(590,350)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(590,410)" name="D Flip-Flop"/>
     <comp lib="0" loc="(690,380)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(520,370)" name="Pin">
+    <comp lib="0" loc="(460,500)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
     <comp lib="1" loc="(540,320)" name="OR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="4" loc="(590,410)" name="D Flip-Flop"/>
-    <comp lib="0" loc="(460,500)" name="Pin">
+    <comp lib="0" loc="(460,300)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(460,300)" name="Pin">
+    <comp lib="1" loc="(680,380)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(520,370)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
   </circuit>
@@ -270,19 +270,23 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(540,350)" to="(550,350)"/>
     <wire from="(590,350)" to="(600,350)"/>
     <wire from="(590,410)" to="(600,410)"/>
+    <comp lib="0" loc="(520,430)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
     <comp lib="0" loc="(460,300)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
     <comp lib="1" loc="(690,380)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(520,430)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
+    <comp lib="4" loc="(590,410)" name="D Flip-Flop"/>
     <comp lib="0" loc="(700,380)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(460,500)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
     <comp lib="1" loc="(540,320)" name="OR Gate">
       <a name="inputs" val="2"/>
@@ -291,10 +295,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
     </comp>
     <comp lib="4" loc="(590,350)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(590,410)" name="D Flip-Flop"/>
-    <comp lib="0" loc="(460,500)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
   </circuit>
   <circuit name="CLK-NOT">
     <a name="circuit" val="CLK-NOT"/>
@@ -314,31 +314,31 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </appear>
     <wire from="(630,390)" to="(650,390)"/>
     <wire from="(500,340)" to="(530,340)"/>
+    <wire from="(580,360)" to="(580,390)"/>
     <wire from="(520,380)" to="(520,540)"/>
     <wire from="(560,410)" to="(590,410)"/>
     <wire from="(500,540)" to="(520,540)"/>
-    <wire from="(580,360)" to="(580,390)"/>
     <wire from="(680,390)" to="(690,390)"/>
     <wire from="(580,390)" to="(590,390)"/>
     <wire from="(520,380)" to="(530,380)"/>
-    <comp lib="1" loc="(580,360)" name="OR Gate">
-      <a name="inputs" val="2"/>
+    <comp lib="0" loc="(560,410)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
-    <comp lib="1" loc="(680,390)" name="NOT Gate"/>
     <comp lib="0" loc="(690,390)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(560,410)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
     <comp lib="0" loc="(500,340)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
+    <comp lib="1" loc="(680,390)" name="NOT Gate"/>
     <comp lib="4" loc="(630,390)" name="D Flip-Flop"/>
     <comp lib="0" loc="(500,540)" name="Pin">
       <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(580,360)" name="OR Gate">
+      <a name="inputs" val="2"/>
     </comp>
   </circuit>
   <circuit name="CLK-XOR">
@@ -375,30 +375,72 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(540,350)" to="(550,350)"/>
     <wire from="(590,350)" to="(600,350)"/>
     <wire from="(590,410)" to="(600,410)"/>
-    <comp lib="4" loc="(590,410)" name="D Flip-Flop"/>
-    <comp lib="0" loc="(520,370)" name="Pin">
+    <comp lib="0" loc="(520,430)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="1" loc="(690,380)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(520,430)" name="Pin">
+    <comp lib="0" loc="(460,300)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(460,500)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="4" loc="(590,350)" name="D Flip-Flop"/>
-    <comp lib="0" loc="(460,300)" name="Pin">
+    <comp lib="0" loc="(520,370)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
+    <comp lib="4" loc="(590,350)" name="D Flip-Flop"/>
     <comp lib="0" loc="(700,380)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp lib="1" loc="(690,380)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
     <comp lib="1" loc="(540,320)" name="OR Gate">
       <a name="inputs" val="2"/>
     </comp>
+    <comp lib="4" loc="(590,410)" name="D Flip-Flop"/>
+  </circuit>
+  <circuit name="D-FF">
+    <a name="circuit" val="D-FF"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <rect fill="none" height="40" stroke="#000000" stroke-width="2" width="60" x="50" y="50"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="81" y="75">D-FF</text>
+      <circ-port height="8" pin="610,250" width="8" x="76" y="46"/>
+      <circ-port height="8" pin="700,350" width="8" x="46" y="66"/>
+      <circ-port height="8" pin="610,450" width="8" x="76" y="86"/>
+      <circ-port height="10" pin="830,330" width="10" x="105" y="65"/>
+      <circ-anchor facing="east" height="6" width="6" x="107" y="67"/>
+    </appear>
+    <wire from="(700,330)" to="(750,330)"/>
+    <wire from="(700,350)" to="(750,350)"/>
+    <wire from="(790,330)" to="(830,330)"/>
+    <wire from="(610,450)" to="(630,450)"/>
+    <wire from="(700,270)" to="(700,330)"/>
+    <wire from="(630,290)" to="(630,450)"/>
+    <wire from="(610,250)" to="(640,250)"/>
+    <wire from="(690,270)" to="(700,270)"/>
+    <wire from="(630,290)" to="(640,290)"/>
+    <comp lib="0" loc="(700,350)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(610,450)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(830,330)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(610,250)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(690,270)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(790,330)" name="D Flip-Flop"/>
   </circuit>
 </project>
